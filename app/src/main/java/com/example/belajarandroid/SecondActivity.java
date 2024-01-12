@@ -34,10 +34,16 @@ public class SecondActivity extends AppCompatActivity {
         // the intent extra.
         Intent intent = getIntent();
         String message = intent.getStringExtra(TwoActivity.EXTRA_MESSAGE);
-
+        if(getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
         // Put that message into the text_message TextView
         TextView textView = findViewById(R.id.text_message);
         textView.setText(message);
+
+        if(getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
     }
 
     /**

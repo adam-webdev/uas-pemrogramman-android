@@ -28,7 +28,9 @@ public class CountActivity extends AppCompatActivity {
         buttonToast = (Button) findViewById(R.id.button_toast);
         buttonHitung = (Button) findViewById(R.id.button_hitung);
         buttonReset = (Button) findViewById(R.id.button_reset);
-
+        if(getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
         buttonToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

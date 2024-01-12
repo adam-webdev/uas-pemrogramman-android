@@ -1,6 +1,7 @@
 package com.example.belajarandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -15,7 +16,7 @@ public class TabsActivity extends AppCompatActivity {
 
     TabLayout tabLayout;
     FrameLayout frameLayout;
-
+    CardView videoSatu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class TabsActivity extends AppCompatActivity {
         }
         tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         frameLayout = (FrameLayout) findViewById(R.id.frame);
+
 
         getSupportFragmentManager().beginTransaction().replace(R.id.frame, new TabFragment1())
                 .addToBackStack(null)

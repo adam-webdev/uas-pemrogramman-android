@@ -23,7 +23,7 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:checked="false"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/blue"
         android:onClick="OnToggleClicked" />
 
     <!--"OnToggleClicked" method will be implemented in MainActivity.java -->

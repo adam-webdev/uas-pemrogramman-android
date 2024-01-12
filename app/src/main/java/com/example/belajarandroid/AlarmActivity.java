@@ -25,7 +25,9 @@ public class AlarmActivity extends AppCompatActivity {
 
         alarmTimePicker = (TimePicker) findViewById(R.id.timePicker);
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-
+        if(getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
     }
 
     // OnToggleClicked() method is implemented the time functionality

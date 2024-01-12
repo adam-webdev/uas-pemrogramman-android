@@ -37,7 +37,9 @@ public class MainActivity extends AppCompatActivity {
         buttonHitung = (Button) findViewById(R.id.button_hitung);
         buttonReset = (Button) findViewById(R.id.button_reset);
 
-
+        if(getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
         buttonSimpan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
