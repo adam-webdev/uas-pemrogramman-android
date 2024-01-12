@@ -8,12 +8,16 @@ Project ini merupakan sebuah tugas UAS mata kuliah `#381DA5` ` pemrogramman mobi
 Berikut Fitur yang ada didalam project ini :
 - Hello world
   - Didalam program ini kita menampilkan tulisan hello world
+  - ![Screenshot_1705030595](https://github.com/adam-webdev/uas-pemrogramman-android/assets/75572469/1f0d5c68-d527-4c2f-b880-0a57023c8f21)
+
+    
     
 - Count
   - Didalam program ini kita membuat sebuah program menghitung, ketika sebuah button diklik maka angka akan bertambah terus,
+  - ![Screenshot_1705030604](https://github.com/adam-webdev/uas-pemrogramman-android/assets/75572469/6b7d3efd-65ac-4abe-a515-7a747d6c1a82)
 
 - Two Activity
-  - Didalam program ini kita belajar membuat dua ativity, yang saling memanggil
+  - Didalam program ini kita belajar membuat dua activity, yang saling memanggil
 
 - Sianida
   - Didalam program ini kita belajar menggunakan tag `ScrollView` yaitu untuk scrooll sebuah screen jika konten melebihi tinggi screen awal, maka otomatis bisa discroll
@@ -36,7 +40,9 @@ Berikut Fitur yang ada didalam project ini :
 - Movies
   - Didalam program ini kita membuat sebauh `Tab Fragment` yang mana didalamnya terdapat kumpulan poster movies
  
-- Detail Movie
+- Detail Movies
   - Didalam program ini kita membuat screen detail movie yang mana didalamnya terdapat detail sebuah moview seperti sutradara, bintang film, asal film, sinopsis dll
+ 
+    
  
     
