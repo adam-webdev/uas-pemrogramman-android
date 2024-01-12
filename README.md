@@ -3,7 +3,7 @@
 > [!Profil]
 > Adam dwi maulana 312210242 TI22B1 Teknik Informatika Universitas Pelita Bangsa 
 
-Project ini merupakan sebuah tugas UAS mata kuliah `#381DA5` ` pemrogramman mobile 1`, 
+Project ini merupakan sebuah tugas UAS mata kuliah ` pemrogramman mobile 1`, 
 
 Berikut Fitur yang ada didalam project ini :
 - Hello world
