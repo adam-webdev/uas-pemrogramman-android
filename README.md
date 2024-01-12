@@ -3,12 +3,12 @@
 > [!Profil]
 > Adam dwi maulana 312210242 TI22B1 Teknik Informatika Universitas Pelita Bangsa 
 
-Project ini merupakan sebuah tugas UAS mata kuliah `#381DA5 pemrogramman mobile 1`, 
+Project ini merupakan sebuah tugas UAS mata kuliah `#381DA5` ` pemrogramman mobile 1`, 
 
 Berikut Fitur yang ada didalam project ini :
 - Hello world
   - Didalam program ini kita menampilkan tulisan hello world
-  - 
+    
 - Count
   - Didalam program ini kita membuat sebuah program menghitung, ketika sebuah button diklik maka angka akan bertambah terus,
 
